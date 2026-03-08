@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>El Paso Homes | Engineering Consultancy</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:'Poppins',sans-serif;
+color:#333;
+line-height:1.6;
+background:#fafafa;
+}
+
+.container{
+width:90%;
+max-width:1200px;
+margin:auto;
+}
+
+nav{
+background:#000;
+color:white;
+padding:18px 0;
+}
+
+nav .container{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+nav a{
+color:white;
+margin-left:25px;
+text-decoration:none;
+font-weight:500;
+}
+
+.hero{
+height:85vh;
+background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
+url('https://images.unsplash.com/photo-1503387762-592deb58ef4e');
+background-size:cover;
+background-position:center;
+display:flex;
+align-items:center;
+color:white;
+}
+
+.hero h1{
+font-size:55px;
+margin-bottom:10px;
+}
+
+.hero p{
+font-size:20px;
+}
+
+.btn{
+display:inline-block;
+margin-top:20px;
+padding:12px 28px;
+background:#f4c400;
+color:black;
+text-decoration:none;
+font-weight:600;
+}
+
+section{
+padding:80px 0;
+}
+
+.section-title{
+text-align:center;
+margin-bottom:50px;
+}
+
+.section-title h2{
+font-size:36px;
+}
+
+.about{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:40px;
+align-items:center;
+}
+
+.stats{
+display:flex;
+gap:40px;
+margin-top:30px;
+}
+
+.stat{
+font-size:28px;
+font-weight:600;
+}
+
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:30px;
+}
+
+.card{
+background:white;
+padding:30px;
+border-radius:8px;
+box-shadow:0 5px 20px rgba(0,0,0,.08);
+}
+
+.projects{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.project{
+background:white;
+padding:25px;
+border-left:5px solid #f4c400;
+}
+
+.tech{
+background:#111;
+color:white;
+}
+
+.tech ul{
+columns:2;
+margin-top:20px;
+}
+
+.contact{
+background:#f4c400;
+}
+
+footer{
+background:#000;
+color:white;
+text-align:center;
+padding:30px;
+}
+.logo{ height:85px; }
+@media(max-width:768px){
+
+.about{
+grid-template-columns:1fr;
+}
+
+.hero h1{
+font-size:38px;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<nav>
+<div class="container">
+<a href="#">
+<img src="logo.png" class="logo">
+</a>
+
+<div>
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#projects">Projects</a>
+<a href="#tech">Expertise</a>
+<a href="#contact">Contact</a>
+</div>
+</div>
+</nav>
+
+<section class="hero">
+
+<div class="container">
+
+<h1>Engineering Excellence</h1>
+
+<p>Building Services Engineering & Infrastructure Consultancy</p>
+
+
+
+<a class="btn" href="#contact">Contact Us</a>
+
+</div>
+
+</section>
+
+<section id="about">
+
+<div class="container about">
+
+<div>
+
+<h2>About El Paso Homes</h2>
+
+<p>
+Established in 2011, El Paso Homes is an engineering consultancy specializing in Building Services Engineering, Sustainability, and Infrastructure design solutions. In 2026, El Paso Homes became part of Daila, combining engineering expertise with digital innovation to deliver comprehensive infrastructure solutions.
+</p>
+
+<p>
+Our solutions integrate cutting-edge technologies including Autodesk,
+Trimble, Microsoft and cloud engineering platforms to deliver
+high-performance engineering projects.
+</p>
+
+<div class="stats">
+
+<div>
+<div class="stat">70+</div>
+Projects
+</div>
+
+<div>
+<div class="stat">200+</div>
+Skilled Labour
+</div>
+
+<div>
+<div class="stat">50+</div>
+Technical Team
+</div>
+
+</div>
+
+</div>
+
+<img src="https://images.unsplash.com/photo-1507209696998-3c532be9b2b5" width="100%">
+
+</div>
+
+</section>
+
+<section id="services">
+
+<div class="container">
+
+<div class="section-title">
+<h2>Our Services</h2>
+</div>
+
+<div class="services">
+
+<div class="card">
+<h3>Architecture Services</h3>
+<p>Architectural planning, conceptual design, urban master planning and 3D modelling solutions.</p>
+</div>
+
+<div class="card">
+<h3>Engineering Services</h3>
+<p>Structural and civil engineering solutions including analysis, infrastructure design and optimization.</p>
+</div>
+
+<div class="card">
+<h3>Construction Management</h3>
+<p>Project planning, cost estimation, budgeting and quality assurance.</p>
+</div>
+
+<div class="card">
+<h3>MEP Engineering</h3>
+<p>Mechanical, Electrical, Plumbing and Fire Protection engineering services.</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="projects">
+
+<div class="container">
+
+<div class="section-title">
+<h2>Major Projects</h2>
+</div>
+
+<div class="projects">
+
+<div class="project">
+<h3>IFFCO Kissan SEZ</h3>
+<p>Nellore, Andhra Pradesh</p>
+<p>2650+ acre development with integrated infrastructure planning.</p>
+</div>
+
+<div class="project">
+<h3>Indis One City</h3>
+<p>Hyderabad</p>
+<p>MEP solutions for 1361 residential units.</p>
+</div>
+
+<div class="project">
+<h3>Prestige Ivy League</h3>
+<p>Hitech City, Hyderabad</p>
+<p>End-to-end MEP services for 349 residential units.</p>
+</div>
+
+<div class="project">
+<h3>Siva Shakthi Sandalwood Gardens</h3>
+<p>Kondapur, Hyderabad</p>
+<p>60+ acre residential layout with integrated infrastructure.</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="tech" class="tech">
+
+<div class="container">
+
+<div class="section-title">
+<h2>Technical Expertise</h2>
+</div>
+
+<ul>
+
+<li>Autodesk Revit</li>
+<li>AutoCAD</li>
+<li>SketchUp</li>
+<li>ETABS</li>
+<li>STAAD.Pro</li>
+<li>SAP2000</li>
+<li>Autodesk BIM 360</li>
+<li>Navisworks</li>
+<li>Tekla Structures</li>
+<li>Microsoft Project</li>
+<li>Primavera P6</li>
+<li>Power BI</li>
+
+</ul>
+
+</div>
+
+</section>
+
+<section class="contact" id="contact">
+
+<div class="container">
+
+<h2>Corporate Contact</h2>
+
+<p>
+Plot No.42, SF No.507/4<br>
+Ragavendra Nagar<br>
+Morai, Avadi<br>
+Tamil Nadu 600055
+</p>
+
+<p>
+Phone: +91 824 888 2049
+</p>
+
+<p>
+Email: info@elpasohomes.in
+</p>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>© 2026 El Paso Homes | Engineering Consultancy</p>
+
+</footer>
+
+</body>
+</html>
